@@ -1,5 +1,5 @@
 
 function Buttonfunction() {
-let html = document.getElementById("script_run").innerHTML = alert('Congratulations!\nYou got the script running.');
+let html = document.getElementById("title").innerHTML = document.getElementById('Alert_value').value;
 document.getElementById("script_run").innerHTML = "Click me!";
 }
